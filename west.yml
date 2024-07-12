@@ -1,0 +1,19 @@
+# Copyright (c) 2024 Nordic Semiconductor ASA
+
+manifest:
+
+  remotes:
+    - name: ncs
+      url-base: https://github.com/nrfconnect
+
+  projects:
+    - name: morty
+      remote: ncs
+      repo-path: sdk-morty
+      revision: f3abda54d9671fe8bf76bf4c806a5193e635083f
+      import: true
+
+  self:
+    path: manifest-repo
+
+
